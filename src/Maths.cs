@@ -6,8 +6,14 @@ namespace Maths
     {
         public static int InvertI(int InvertThis)
         {
-            
-
+            return InvertThis*-1;
+        }
+        public static float InvertF(float InvertThis)
+        {
+            return InvertThis*-1;
+        }
+        public static double InvertD(double InvertThis)
+        {
             return InvertThis*-1;
         }
         
