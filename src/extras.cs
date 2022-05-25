@@ -6,7 +6,16 @@ namespace CSFormulaCalc
     {
         public static void ask()
         {
-            string[] questions= {"exit ","pythagorean","inverse pythagorean"};// spealt wrong lol
+            string[] questions= {"exit ",
+            "pythagorean theorem ",
+            "inverse pythagorean theorem",
+            "distance formula",
+            "slope formula", 
+            "classify a triangle",
+            "check the circumference of a circle",
+            "check the area of a circle",
+            "preform the midpoint formula",
+            "find the area of a certan section of a circle"};// spealt wrong lol
             for (int i = 0; i < questions.Length; i++)
             {
                 Console.WriteLine("{0}. {1}",i, questions[i]);
@@ -45,6 +54,12 @@ namespace CSFormulaCalc
                     break;
                 case 2:
                     mathsio.pythag(true);
+                    break;
+                case 3:
+                    mathsio.slop(true);
+                    break;
+                case 4:
+                    mathsio.slop(false);
                     break;
                 default:
                 return 0;
