@@ -1,6 +1,6 @@
 using System;
 
-namespace Maths
+namespace CSFormulaCalc
 {
     public class Invert
     {
