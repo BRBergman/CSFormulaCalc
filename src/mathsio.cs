@@ -51,19 +51,16 @@ namespace CSFormulaCalc
             float[] x = CSFormulaCalc.extras.getvars(str);
             if (dist)
             {
-                
                Console.WriteLine( CSFormulaCalc.Formulas.Distance(x[0],x[1],x[2],x[3]));
             }
             else
             {
                 Console.WriteLine( CSFormulaCalc.Formulas.Slope(x[0],x[1],x[2],x[3]));
             }
-
             return;
         }
         public static void pythag(bool inverse)
         {
-           
             string[] str = {"what is your x", "what is your y"};
             float[] x = CSFormulaCalc.extras.getvars(str);
             if (inverse)
