@@ -70,6 +70,12 @@ namespace CSFormulaCalc
                 case 7:
                     mathsio.circumph(true);
                     break;
+                case 8:
+                    mathsio.mid();
+                    break;
+                case 9:
+                    mathsio.csar();
+                    break;
                 default:
                 return 0;
             }

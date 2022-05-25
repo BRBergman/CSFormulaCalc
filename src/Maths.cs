@@ -84,11 +84,12 @@ namespace CSFormulaCalc
             return Math.PI*Math.Pow(rad, 2);
         }
 
-        public static double Midpoint(float one, float two)
+        public static double[] Midpoint(float x1, float x2, float y1, float y2)
         {
             //do twice to get x and y
-
-            return (one+two)/2;
+            double[] x = {(x1+x2)/2, (y1+y2)/2};
+            
+            return x;
         }
 
         //circle section area

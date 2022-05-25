@@ -14,11 +14,10 @@ namespace CSFormulaCalc
 
         public static void mid()
         {
-            string[] str =  {"Enter X1: ","Enter Y1: ","Enter X2: ","Enter Y2: "};
+            string[] str =  {"Enter X1: ","Enter X2: ","Enter Y1: ","Enter Y2: "};
             float[] x = CSFormulaCalc.extras.getvars(str);
-            double first = CSFormulaCalc.Formulas.Midpoint(x[0],x[2]);
-            double second = CSFormulaCalc.Formulas.Midpoint(x[1],x[3]);
-            Console.WriteLine("the midpoint is: {1},{2}",first,second);
+            double[] num = CSFormulaCalc.Formulas.Midpoint(x[0],x[1],x[2],x[3]);
+            Console.WriteLine("the midpoint is: {1},{2}",num[0],num[1]);
             return;
         }
 
