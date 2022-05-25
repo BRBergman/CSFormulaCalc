@@ -29,8 +29,16 @@ namespace CSFormulaCalc
         }
         public static int getnum()
         {
-            int num;
-            num = int.Parse(""+Console.ReadLine());
+            int num = 0;
+            string? str = Console.ReadLine()+"";
+            if (str == "")
+            {
+                num = 0;
+            }
+            else
+            {
+                num = int.Parse(str);
+            }
             switch (num)
             {   
                 case 1:
