@@ -1,6 +1,7 @@
 ﻿using System;
 
 
+
 class MainClass
 {
     public static int Main()
