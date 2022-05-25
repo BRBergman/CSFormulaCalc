@@ -18,7 +18,17 @@ namespace CSFormulaCalc
         {
             int num;
             num = int.Parse(Console.ReadLine()+" ");
-            
+            switch (num)
+            {
+                case 1:
+                    Console.WriteLine("case 1");
+                    break;
+                case 2:
+                    Console.WriteLine("case 2");
+                    break;
+                default:
+                break;
+            }
           
 
             return 0;
