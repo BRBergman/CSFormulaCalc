@@ -11,7 +11,6 @@ namespace CSFormulaCalc
             {
                 Console.WriteLine("{0}. {1}",i, questions[i]);
             }
-
             return;
         }
         public static float[] getvars(string[] num)
@@ -22,7 +21,7 @@ namespace CSFormulaCalc
             for (int i = 0; i < y; i++)
             {
                 Console.WriteLine(num[i]);
-                x[i]= float.Parse(Console.ReadLine()+ "");
+                x[i]= float.Parse(Console.ReadLine()+"");
             }
 
             return x;
