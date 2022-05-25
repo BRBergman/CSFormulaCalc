@@ -9,8 +9,8 @@ class MainClass
         Console.Clear();
         CSFormulaCalc.extras.ask();
         CSFormulaCalc.extras.getnum();
+        Console.Clear();
         return 0;
     }
 
 }
-
