@@ -17,8 +17,9 @@ namespace CSFormulaCalc
         public static int getnum()
         {
             int num;
-
+            num = int.Parse(Console.ReadLine()+" ");
             
+           
 
             return 0;
         }
