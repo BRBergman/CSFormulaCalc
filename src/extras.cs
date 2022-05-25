@@ -61,6 +61,15 @@ namespace CSFormulaCalc
                 case 4:
                     mathsio.slop(false);
                     break;
+                case 5:
+                    mathsio.classifytri();
+                    break;
+                case 6:
+                    mathsio.circumph(false);
+                    break;
+                case 7:
+                    mathsio.circumph(true);
+                    break;
                 default:
                 return 0;
             }
