@@ -6,10 +6,10 @@ namespace CSFormulaCalc
     {
         public static void ask()
         {
-            string[] questions= {"pythagorean","inverse pythagorean"};// spealt wrong lol
+            string[] questions= {"exit ","pythagorean","inverse pythagorean"};// spealt wrong lol
             for (int i = 0; i < questions.Length; i++)
             {
-                Console.WriteLine("{0}. {1}",i+1, questions[i]);
+                Console.WriteLine("{0}. {1}",i, questions[i]);
             }
 
             return;
@@ -30,9 +30,9 @@ namespace CSFormulaCalc
         public static int getnum()
         {
             int num;
-            num = int.Parse(Console.ReadLine()+" ");
+            num = int.Parse(""+Console.ReadLine());
             switch (num)
-            {
+            {   
                 case 1:
                     mathsio.pythag(false);
                     break;
@@ -40,8 +40,10 @@ namespace CSFormulaCalc
                     mathsio.pythag(true);
                     break;
                 default:
-                break;
+                return 0;
             }
+            Console.ReadKey();
+            MainClass.Main();
             return 0;
         }
     }
