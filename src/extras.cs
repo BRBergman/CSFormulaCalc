@@ -42,8 +42,6 @@ namespace CSFormulaCalc
                 default:
                 break;
             }
-          
-
             return 0;
         }
         
