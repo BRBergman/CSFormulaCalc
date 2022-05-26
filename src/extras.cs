@@ -35,7 +35,7 @@ namespace CSFormulaCalc
 
             return x;
         }
-        public static int getnum()
+        public static void getnum()
         {
             int num = 0;
             string? str = Console.ReadLine()+"";
@@ -77,11 +77,11 @@ namespace CSFormulaCalc
                     mathsio.csar();
                     break;
                 default:
-                return 0;
+                return;
             }
             Console.ReadKey();
             MainClass.Main();
-            return 0;
+            return;
         }
     }
 }

@@ -2,9 +2,9 @@
 
 
 //main lol because im used to c++ way of doing main
-class MainClass
+class MainClass//class
 {
-    public static int Main()
+    public static int Main()//method/func
     {
         Console.Clear();
         CSFormulaCalc.extras.ask();
