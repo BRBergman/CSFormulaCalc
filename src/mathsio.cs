@@ -11,7 +11,7 @@ namespace CSFormulaCalc
             Console.WriteLine("The Area Is: {0}", CSFormulaCalc.Formulas.CSArea(x[0],x[1]));
             return;
         }
-
+        
         public static void mid()
         {
             string[] str =  {"Enter X1: ","Enter X2: ","Enter Y1: ","Enter Y2: "};
