@@ -6,7 +6,7 @@ namespace CSFormulaCalc
     {
         public static void csar()
         {
-            string[] str =  {"Enter Radious: ","Enter Angle: "};
+            string[] str =  {"Enter Radius: ","Enter Angle: "};
             float[] x = CSFormulaCalc.extras.getvars(str);
             Console.WriteLine("The Area Is: {0}", CSFormulaCalc.Formulas.CSArea(x[0],x[1]));
             return;
@@ -23,7 +23,7 @@ namespace CSFormulaCalc
 
         public static void circumph(bool area)	//if true does area if false does circumphrince
         {
-            string[] str =  {"Enter the Radious: "};
+            string[] str =  {"Enter The Radius: "};
             float[] x = CSFormulaCalc.extras.getvars(str);            
             if (area)
             {
