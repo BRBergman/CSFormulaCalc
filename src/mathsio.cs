@@ -8,7 +8,7 @@ namespace CSFormulaCalc
         {
             string[] str =  {"Enter Radious: ","Enter Angle: "};
             float[] x = CSFormulaCalc.extras.getvars(str);
-            Console.WriteLine("The Area is: {0}", CSFormulaCalc.Formulas.CSArea(x[0],x[1]));
+            Console.WriteLine("The Area Is: {0}", CSFormulaCalc.Formulas.CSArea(x[0],x[1]));
             return;
         }
 
@@ -17,7 +17,7 @@ namespace CSFormulaCalc
             string[] str =  {"Enter X1: ","Enter X2: ","Enter Y1: ","Enter Y2: "};
             float[] x = CSFormulaCalc.extras.getvars(str);
             double[] num = CSFormulaCalc.Formulas.Midpoint(x[0],x[1],x[2],x[3]);
-            Console.WriteLine("the midpoint is: {1},{2}",num[0],num[1]);
+            Console.WriteLine("The Midpoint Is: {1},{2}",num[0],num[1]);
             return;
         }
 
@@ -27,11 +27,11 @@ namespace CSFormulaCalc
             float[] x = CSFormulaCalc.extras.getvars(str);            
             if (area)
             {
-                Console.WriteLine("The area is: {0}", CSFormulaCalc.Formulas.CArea(x[0]));
+                Console.WriteLine("The Area Is: {0}", CSFormulaCalc.Formulas.CArea(x[0]));
             }
             else
             {
-                Console.WriteLine("The Circumference is: {0}",CSFormulaCalc.Formulas.Circumprence(x[0]));
+                Console.WriteLine("The Circumference Is: {0}",CSFormulaCalc.Formulas.Circumprence(x[0]));
             }
             return;
         }
@@ -39,7 +39,7 @@ namespace CSFormulaCalc
         public static void classifytri()
         {
             string[] str = {"Enter A: ","Enter B: ","Enter C: "};
-            string[] tri = {"It's not a triangle","It's a right triangle","It's an obtuse triangle","It's an accute triangle"};
+            string[] tri = {"It's Not A Triangle","It's A Right Triangle","It's An Obtuse Triangle","It's An Accute Triangle"};
             float[] x = CSFormulaCalc.extras.getvars(str);
             int cases = CSFormulaCalc.Formulas.CheckIfTri(x[0],x[1],x[2]);
             Console.WriteLine(tri[cases]);
