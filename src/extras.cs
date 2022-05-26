@@ -32,7 +32,6 @@ namespace CSFormulaCalc
                 Console.WriteLine(num[i]);
                 x[i]= 0 + float.Parse(Console.ReadLine()+"");
             }
-
             return x;
         }
         public static void getnum()
