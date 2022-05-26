@@ -47,6 +47,7 @@ namespace CSFormulaCalc
             {
                 num = int.Parse(str);
             }
+            Console.Clear();
             switch (num)
             {   
                 case 1:
