@@ -30,7 +30,7 @@ namespace CSFormulaCalc
             for (int i = 0; i < y; i++)
             {
                 Console.WriteLine(num[i]);
-                x[i]= float.Parse(Console.ReadLine()+"");
+                x[i]= 0 + float.Parse(Console.ReadLine()+"");
             }
 
             return x;
