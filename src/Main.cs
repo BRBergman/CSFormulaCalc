@@ -1,7 +1,7 @@
 ﻿using System;
 
 
-
+//main lol because im used to c++ way of doing main
 class MainClass
 {
     public static int Main()
