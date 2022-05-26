@@ -51,7 +51,7 @@ namespace CSFormulaCalc
             float[] x = CSFormulaCalc.extras.getvars(str);
             if (dist)
             {
-               Console.WriteLine( CSFormulaCalc.Formulas.Distance(x[0],x[1],x[2],x[3]));
+               Console.WriteLine( "The Distance is : {0}",CSFormulaCalc.Formulas.Distance(x[0],x[1],x[2],x[3]));
             }
             else
             {
