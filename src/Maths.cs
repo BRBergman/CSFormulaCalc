@@ -86,7 +86,6 @@ namespace CSFormulaCalc
 
         public static double[] Midpoint(float x1, float x2, float y1, float y2)
         {
-            //do twice to get x and y
             double[] x = {(x1+x2)/2, (y1+y2)/2};
             
             return x;
