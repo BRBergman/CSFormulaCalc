@@ -13,5 +13,6 @@ class MainClass//class
         CSFormulaCalc.extras.getnum();
         Console.Clear();
         return;
+        
     }
 }
