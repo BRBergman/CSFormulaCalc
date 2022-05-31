@@ -8,6 +8,7 @@ class MainClass//class
 {
     public static void Main()//method/func
     {
+        
         MainClass.Calculator();
         return;
         
