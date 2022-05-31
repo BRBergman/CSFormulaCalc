@@ -95,7 +95,7 @@ namespace CSFormulaCalc
         public static double CSArea(float radious, float angle)
         {
             double top = angle*(Math.PI*Math.Pow(radious,2));
-
+            
             return top/360;
         }
     }
