@@ -1,7 +1,7 @@
 ﻿using System;
 
 
-//main lol because im used to c++ way of doing main
+
 
 
 class MainClass//class
@@ -18,6 +18,7 @@ class MainClass//class
         CSFormulaCalc.extras.ask();
         CSFormulaCalc.extras.getnum();
         Console.Clear();
+        return;
     }
 
 }
