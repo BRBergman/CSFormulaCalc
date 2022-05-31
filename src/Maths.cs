@@ -2,6 +2,24 @@ using System;
 
 namespace CSFormulaCalc
 {
+    public class Abso
+    {
+        public static int Absoi(int AbsThis)
+        {
+            int abs;
+
+            
+            if(AbsThis < 0)
+            {
+                abs = CSFormulaCalc.Invert.InvertI(AbsThis);
+            }
+            else{
+                abs = AbsThis;
+            }
+            
+            return abs;
+        }
+    }
     public class Invert
     {
         public static int InvertI(int InvertThis)

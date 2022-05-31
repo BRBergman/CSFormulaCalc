@@ -80,7 +80,7 @@ namespace CSFormulaCalc
                 return;
             }
             Console.ReadKey();
-            MainClass.Main();
+            MainClass.Calculator();
             return;
         }
     }
