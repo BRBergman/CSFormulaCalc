@@ -15,8 +15,8 @@ class MainClass//class
     public static void Calculator()
     {
         Console.Clear();
-        CSFormulaCalc.extras.ask();
-        CSFormulaCalc.extras.getnum();
+        extras.ask();
+        extras.getnum();
         Console.Clear();
         return;
     }
