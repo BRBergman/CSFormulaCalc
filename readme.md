@@ -1,1 +1,1 @@
-i wanna lern c# lol and also wanna use this cross-platform
+used this simple thing to get a hand of c# no longer in development
